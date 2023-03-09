@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kodesvision</title>
+    <link rel="icon" href="../codevisionassets/logo.svg" type="image/icon type">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/0b36f5c9d1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="media.css">
+<link rel="icon" href="../codevisionassets/logo.svg">
+</head>
+<body>
+     <nav>
+        <img src="../codevisionassets/logo.svg" title="code vision " width="30px" alt="">
+        <a href="#newsletter">newsletter</a>
+        <a href="#contacts">contacts</a>
+        <a href="#course" class="courses">projects</a>
+     </nav>
+
+     
+     <!-- Hero section -->
+     <div class="hero_section">
+        <div>
+            <h1>Welcome to <b>KodesFusion</b> - Let's Explore Coding Together!</h1>
+            <p>Join us as we explore the exciting world of coding through personal projects. Let's learn, build, and have fun together!</p>
+            <br>
+              <a href="#course"> view projects</a>
+        </div>
+        <div>
+            <img src="../codevisionassets/hero_svg.svg" alt="">
+        </div>
+     </div>
+
+
+
+     <!-- projects div -->
+
+     <section class="course" id="course">
+       <center> <h1>Our projects </h1></center>
+        <div class="course_box">   
+           
+          <div class="css">
+            <div id="image-holder">
+                <img src="../codevisionassets/css-logo.png" alt="">
+            </div>
+            <center>
+            <h3>css projects</h3>
+            <p id="level">for all</p>
+            <button id="beginCSS">view projects</button>
+        </center>
+          </div>
+          <div class="javascript">
+            <div id="image-holder">
+                <img src="../codevisionassets/javascript-logo.jpeg" alt="">
+            </div>
+            <center>
+            <h3>javascript projects</h3>
+            <p id="level">for all</p>
+            <button id="beginJS">view projects</button>
+        </center>
+          </div>
+          <div class="php">
+            <div id="image-holder">
+                <img src="../codevisionassets/php-logo.png" alt="">
+              </div>
+              <center>
+            <h3>php  projects</h3>
+            <p id="level">for all</p>
+            <button id="beginPHP">view projects</button>
+        </center>
+          </div>
+         
+        </div>
+         </section>
+
+         <div class="newsletter" id="newsletter">
+            <center>
+                 <h3>our newsletter</h3>
+                 <p>update on newer projects and much more</p>
+                </center>
+             
+             <div class="form_section">
+                <center>
+                    <form  method="post">
+                    <input type="email" required id="email" placeholder="example@gmail.com">
+                    <input type="submit" value="subscribe" id="subscribe">
+                </form>
+                </center>
+                
+             </div>
+         </div>
+         <br>
+      
+         <div class="contacts" id="contacts">
+            <center>
+                <h3>contact us</h3>
+                <p> powered by <b >zeron industries</b></p>
+            </center>
+        
+            <center>
+                <form  method="post">
+                    <div class="username"> 
+                        <center>
+                            <label for="username">username</label>
+                        <br>
+                        <input type="text" id="username"><br>
+                        <label for="phonenumber">phonenumber</label>
+                        <br>
+                        <input type="number" id="phonenumber" placeholder="optional">
+                    </center>
+                    </div>
+                    <div class="message">
+                        <p>message</p>
+                        <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="submit">
+                        <button id="send">send&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </center>
+         </div>
+                
+         
+        <footer>
+         <div class="youtubesubscribe">
+            <h3>Subscribe to my youtube channel</h3>
+            <script src="https://apis.google.com/js/platform.js"></script>
+
+         <div class="g-ytsubscribe" data-channelid="UCknSMBTSvK7AaczaHnoYQHg" data-layout="full" data-count="hidden"></div>
+         </div>
+
+         <p id="copyright">&copy;zeronIndustries,   kodesfusion.com</p>
+         <a href="terms.html">terms and conditions</a>
+         <a href="privacy.html">privacy policy</a>
+        </footer>
+         
+         
+
+
+
+
+</body>
+<script src="home.js"></script>
+</html>

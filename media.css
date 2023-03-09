@@ -1,0 +1,160 @@
+@media(max-width:900px){
+    .hero_section div:nth-child(1) h1{
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+    .php,.css,.javascript{
+        width: 25%;
+        height: 400px;
+        margin: 2rem;
+       }
+       
+       
+ 
+}
+
+@media (max-width:600px){
+    nav{
+        position: relative;
+    }
+    .hero_section{
+        height: 80%;
+        object-fit:cover;
+        margin-top: 5rem;
+    }
+}
+
+@media(max-width:700px){
+    .hero_section div:nth-child(1) h1{
+        margin-top: 4rem;
+        font-size:25px;
+    }
+    .hero_section div:nth-child(1) p{
+        font-size:14px;
+    }
+    .course_box{
+      flex-direction: column;
+    }  
+    .php,.css,.javascript{
+        width: 100%;
+        height: 400px;
+        margin: 1rem;
+        margin-top: 2rem;
+       }
+    
+    nav img{
+        margin-right:20%;
+    }
+    .contacts{
+        font-family: var(--fontfamily);
+        margin-top: 10rem;
+    }
+    
+    .contacts h3{
+        font-size:30px;
+    }
+    .contacts p{
+       color: var(--grey1);
+       font-size: 15px;
+       margin-bottom: 0.5rem;
+    }
+    .contacts p b{
+        color: var(--primary-color);
+     }
+    
+     .username{
+        margin-top: 2rem;
+     }
+     .username label{
+        margin: 0.3rem;
+        font-size: 14px;
+        color: var(--grey);
+     }
+    
+     .username input{
+        height: 30px;
+        border: none;
+        border: 1px solid var(--primary-color);
+        outline: none;
+        margin: 2rem;
+        transition:all 0.1s linear;
+        border-radius: 5px;
+     }
+     .username input:hover{
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+        padding: 0.3rem;
+     }
+    
+     .message p{
+        color: var(--black);
+        font-size: 18px;
+        margin-top: 2rem;
+     }
+    
+     .message textarea{
+        width:80%;
+        height: 300px;
+        outline: none;
+        resize: none;
+     }
+     .submit {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+     }
+     .submit button{
+        width: 80%;
+        height: 40px;
+        background: var(--primary-color);
+        color: var(--white);
+        border: none;
+        border-radius: 5px;
+     }
+     
+}
+@media (max-width:500px){
+    .hero_section div:nth-child(1) p{
+       display: none;
+    } 
+}
+@media (max-width:450px){
+    .hero_section {
+      margin-top: 1rem;
+    } 
+    .hero_section div:nth-child(1) h1{
+       font-size: 15px;
+     } 
+     nav img{
+        margin-right:10%;
+    }
+    nav a{
+        text-decoration: none;
+        color: var(--grey2);
+        font-family: var(--fontfamily);
+        margin: 0.3rem;
+        font-size: 14px;
+    }
+    nav a:last-child{
+        margin-left: 4%;
+    }
+    #email{
+        width:60%;
+        height: 30px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+        border: 1px solid var(--grey2);
+        outline: transparent;
+        color: var(--grey1);
+        padding-left: 0.2rem;
+        
+    }
+    #subscribe{
+        width:30%px;
+        height: 30px;
+        border: none;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+}
